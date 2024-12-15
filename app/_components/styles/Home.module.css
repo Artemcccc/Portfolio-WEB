@@ -1,0 +1,160 @@
+/* Conteneur principal */
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+/* Sections générales */
+.section {
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.webSection {
+  width: 70%; /* Réduit la largeur des projets web */
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+/* Grille des cartes */
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* Titres spécifiques */
+.titlePrimary {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.titleSecondary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.8rem;
+}
+
+.textParagraph {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Adaptation mobile */
+@media (max-width: 768px) {
+  .section {
+    width: 90%;
+  }
+
+  .webSection {
+    width: 90%;
+  }
+
+  .card {
+    padding: 12px;
+  }
+}
+.video {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.downloadButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}
+
+.webImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.finissantImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.textWrapper {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.description {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.skillsSection {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skillsTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skillsList {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,67 @@
+/* Conteneur pour l'icône du menu */
+.menuIcon {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  z-index: 1000; /* Toujours visible au-dessus du menu */
+  width: 30px;
+  height: 30px;
+  
+}
+
+/* Image de l'icône */
+.menuIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: invert(100%); /* Toujours blanche */
+  
+}
+
+/* Menu de navigation */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: -150px; /* Caché hors de l'écran */
+  width: 13em; /* Plus étroit */
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease;
+  z-index: 999; /* Sous l'icône du menu */
+}
+
+/* Menu visible */
+.navbar.open {
+  left: 0; /* Visible sur l'écran */
+}
+
+.navbar.closed {
+  width: 70px; /* Largeur du menu fermé */
+}
+
+
+/* Liste des éléments */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 0; /* Plus d'espace entre l'icône et les éléments */
+  width: 100%;
+}
+
+.navbar li {
+  margin: 20px 0; /* Espacement entre les éléments */
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  color: #6d00f3; /* Violet au survol */
+}
