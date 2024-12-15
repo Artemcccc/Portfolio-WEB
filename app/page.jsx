@@ -20,7 +20,7 @@ export default function Home() {
       <Section id="about" className={styles.section}>
         <h2 className={styles.titleSecondary}>À Propos</h2>
         <img
-          src="/tim_finissants_2024-05.png"
+          src="https://utfs.io/f/BLL7xWNOFxusvTK2wmML2oY67tH5Og8lmSFVndsCaDhPbJBk"
           alt="Finissant"
           className={styles.finissantImage}
         />
@@ -47,7 +47,7 @@ export default function Home() {
         <p className={styles.textParagraph}>
           Languages connues: C#, javascript, HTML, CSS, GDScript et Python
         </p>
-        <a href="/ArtemKharseevCV.pdf" className={styles.downloadButton} download>
+        <a href="https://utfs.io/f/BLL7xWNOFxusRv7mv1XqZNI7g39uLOHYoeij2Vlw468amcAb" className={styles.downloadButton} download>
           Télécharger mon CV
         </a>
       </Section>
@@ -60,31 +60,31 @@ export default function Home() {
       title="Sir leRoi"
       description="Asset en pixel art pour un jeu vidéo. Compétences développées : création de sprites, animation pixel art, optimisation visuelle."
       competences="Réalisé avec Aseprite"
-      gif="/knight_spritesheet.gif"
+      gif="https://utfs.io/f/BLL7xWNOFxusBGxnx7sNOFxusySAQM6G8oqmk9UBiHYvbV1I"
     />
     <Card
       title="3D Bedroom"
       description="Modélisation d'une chambre en 3D. Compétences développées : modélisation 3D, gestion de l'éclairage, texturing et composition de scène."
       competences="Réalisé avec Blender"
-      media="/bedroom.png"
+      media="https://utfs.io/f/BLL7xWNOFxus8Xh9Qy502oAadMvUPf9kHJ1CTpmVjwcDKibB"
     />
     <Card
       title="C'est juste un boss chat"
       description="Modèle 3D de personnage réalisé dans Blender. Compétences développées : sculpture 3D, rigging, texturing, et gestion des proportions anatomiques."
       competences="Réalisé avec Blender"
-      media="/cat.png"
+      media="https://utfs.io/f/BLL7xWNOFxusGF56VVShsOfMPedUuj4AkX16CZYBFHgazpNw"
     />
     <Card
       title="Marteau 3D"
       description="Création d'un marteau 3D dans Blender. Compétences développées : modélisation hard surface, texturing métallique, et rendu réaliste."
       competences="Réalisé avec Blender"
-      media="/hammer.png"
+      media="https://utfs.io/f/BLL7xWNOFxusVmM43Kcy2HMjdcNt1uTbG5iwOWJVfDmzQL8R"
     />
     <Card
       title="Donut 3D"
       description="Création d'un donut 3D dans Blender. Compétences développées : modélisation de formes organiques, création de shaders simples, et rendu avec cycles."
       competences="Réalisé avec Blender"
-      media="/donut.png"
+      media="https://utfs.io/f/BLL7xWNOFxusT2Sw65I7FZAWfNsn10zKExa3y2LhbiXQjpOg"
     />
   </div>
 </Section>
@@ -98,31 +98,31 @@ export default function Home() {
   </p>
   <div className={styles.cardGrid}>
     <div className={styles.card}>
-      <img src="/web_projets/1.png" alt="Page d'accueil avec navigation" />
+      <img src="https://utfs.io/f/BLL7xWNOFxusuRzqgP3qK5YGgDoMjhUpwIdQlAbVL9FsCmxP" alt="Page d'accueil avec navigation" />
       <p className={styles.cardDescription}>
         Page d'accueil avec une barre de navigation interactive. Compétences développées : création de composants réutilisables, gestion du layout, et design responsif.
       </p>
     </div>
     <div className={styles.card}>
-      <img src="/web_projets/2.png" alt="Page d'accueil avec sections" />
+      <img src="https://utfs.io/f/BLL7xWNOFxus80TuVW502oAadMvUPf9kHJ1CTpmVjwcDKibB" alt="Page d'accueil avec sections" />
       <p className={styles.cardDescription}>
         Suite de la page d'accueil avec différentes sections organisées. Compétences développées : structuration des sections, utilisation de flexbox/grid, et optimisation visuelle.
       </p>
     </div>
     <div className={styles.card}>
-      <img src="/web_projets/3.png" alt="Page de liste de questionnaires" />
+      <img src="https://utfs.io/f/BLL7xWNOFxusW87epCgN3YP2lHezB1kyJnTcwQb6EWMghxs9" alt="Page de liste de questionnaires" />
       <p className={styles.cardDescription}>
         Page affichant une liste de questionnaires disponibles. Compétences développées : gestion d'états, intégration d'API pour récupérer et afficher les données, et design clair des listes.
       </p>
     </div>
     <div className={styles.card}>
-      <img src="/web_projets/4.png" alt="Page de création de questionnaire" />
+      <img src="https://utfs.io/f/BLL7xWNOFxusvYVTbNML2oY67tH5Og8lmSFVndsCaDhPbJBk" alt="Page de création de questionnaire" />
       <p className={styles.cardDescription}>
         Page dédiée à la création de nouveaux questionnaires. Compétences développées : gestion des formulaires, validation des champs, et logique d'ajout dynamique.
       </p>
     </div>
     <div className={styles.card}>
-      <img src="/web_projets/5.png" alt="Page de participation à un questionnaire" />
+      <img src="https://utfs.io/f/BLL7xWNOFxusGeIwXzShsOfMPedUuj4AkX16CZYBFHgazpNw" alt="Page de participation à un questionnaire" />
       <p className={styles.cardDescription}>
         Page permettant aux utilisateurs de rejoindre un questionnaire. Compétences développées : routage dynamique, gestion des entrées utilisateur, et intégration d'API.
       </p>
@@ -139,7 +139,7 @@ export default function Home() {
           title="Fiche des assets"
           description="Fiche visuelle des assets pour le jeu Baba et Le Bosquet Hanté"
           competences="Réalisé avec Photoshop et Animator"
-          media="/Modele_FicheVisuelle.png"
+          media="https://utfs.io/f/BLL7xWNOFxusdklJ2rp1BXc0hQDSsiUY7jyI6pvmgFG8AdJk"
         />
       </Section>
 
@@ -149,7 +149,7 @@ export default function Home() {
   
   <div className={styles.videoWrapper}>
     <video controls className={styles.video}>
-      <source src="/khaa2254364.mp4" type="video/mp4" />
+      <source src="https://utfs.io/f/BLL7xWNOFxusoV8908eriHgCRsUDhZPwa9FxIbfpOY4eLnz1" type="video/mp4" />
       Votre navigateur ne supporte pas la lecture de vidéos.
     </video>
   </div>
